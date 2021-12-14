@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+  background: gray;
+  height: 75px;
+  margin: 0 100px 0 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.search {
+  width:400px;
+  height: 45px;
+  font-size: 1.5rem;
+  border: 2px solid black;
+}
+
+.nav-btn {
+  padding: 10px 40px 10px 40px;
+  font-size: 1.2rem;
+  background: blue;
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.flex-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.card-1 {
+  border: 2px solid black;
+  overflow: hidden;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+
+
+
