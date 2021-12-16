@@ -12,7 +12,7 @@
     <div class="nav">
       <h1>Dojonary</h1>
       <input class="search" type="text" placeholder=" Search...">
-      <button class="nav-btn">Login</button>
+      <button onclick="change_text()" class="nav-btn">Login</button>
     </div>
     <div class="rows">
       <div class="row-1">
@@ -21,7 +21,7 @@
             <h2>ninja</h2>
             <h4 class="noun"> noun</h4>
             <h4 class="plural">Plural: ninjas</h4>
-            <button class="btn-likes">13 Likes</button>
+            <button onclick="message()" class="btn-likes">13 Likes</button>
           </div>
              <p class="def">
                A practitioner skilled in the <a href="#"> Japanese </a>are of <a href="">ninjutsu</a>
@@ -32,7 +32,7 @@
               <h2>ninja</h2>
               <h4 class="noun">noun</h4>
               <h4 class="plural">Plural: ninjas</h4>
-              <button class="btn-likes">37 Likes</button>
+              <button onclick="message()" class="btn-likes">37 Likes</button>
             </div>
                <p class="def">A <a href="#">programmer</a> who breaks <br>down problem    with <a href="#">zen</a>  like<br>focus</p>
         </div>
@@ -40,10 +40,11 @@
           <div class="row-2">
             <div class="card-3">
               <h3>Dojonary is defined by <span class="bold">YOU</span></h3>
-              <button class="btn-def">Add Definition</button>
+              <button onclick="remove()" class="btn-def">Add Definition</button>
             </div>
         </div>
     </div>
  </div>
+ <script src="/script.js"></script>
 </body>
 </html>
